@@ -1,12 +1,12 @@
-public class vehiculo{
+public class Objvehiculo{
     private String marca;
     private String modelo;
     private int año;
     private String color;
-    private int precio;
+    private Double precio;
     private String tipo;
 
-    public vehiculo(String marca, String modelo, int año, String color, int precio, String tipo) {
+    public Objvehiculo(String marca, String modelo, int año, String color, Double precio, String tipo) {
         this.marca = marca;
         this.modelo = modelo;
         this.año = año;
@@ -31,7 +31,7 @@ public class vehiculo{
         return color;
     }
 
-    public int getPrecio() {
+    public Double getPrecio() {
         return precio;
     }
 
@@ -55,7 +55,7 @@ public class vehiculo{
         this.color = color;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(Double precio) {
         this.precio = precio;
     }
 
